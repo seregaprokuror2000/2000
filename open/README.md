@@ -2,6 +2,8 @@
 
 > Experimental clearing and settlement-risk engine for unsettled machine-payment obligations.
 
+**Status:** Day 1 foundation is ready: model, engine, fixtures, tests, specification, and theory.
+
 OpenClearing turns payment-channel funding, service delivery, cumulative vouchers, settlement, distribution, and refunds into a reproducible exposure statement and a balanced shadow journal.
 
 ## Why
@@ -61,7 +63,7 @@ src/money.ts                  exact fixed-point amount helpers
 src/types.ts                  event and report types
 examples/valid-session.json   valid lifecycle
 examples/risky-session.json   expired and under-covered delivery
- test/engine.test.ts           executable expectations
+test/engine.test.ts           executable expectations
 docs/SPEC-0.1.md              working event/accounting model
 docs/THEORY-DAY-01-RU.md      today's Russian theory lesson
 ```
