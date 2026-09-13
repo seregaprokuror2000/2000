@@ -1,0 +1,14 @@
+{
+  "specificationVersion": "0.1",
+  "channelId": "CH-RISK-001",
+  "asset": "USDC",
+  "decimals": 6,
+  "analyzedAt": "2026-09-13T13:00:00Z",
+  "events": [
+    { "id": "e1", "type": "CHANNEL_FUNDED", "amount": "100.00", "timestamp": "2026-09-13T12:00:00Z" },
+    { "id": "e2", "type": "SERVICE_DELIVERED", "amount": "74.20", "timestamp": "2026-09-13T12:20:00Z" },
+    { "id": "e3", "type": "VOUCHER_ACCEPTED", "cumulativeAmount": "73.90", "expiresAt": "2026-09-13T12:50:00Z", "timestamp": "2026-09-13T12:20:01Z" },
+    { "id": "e4", "type": "CLAIM_CONFIRMED", "cumulativeAmount": "50.00", "timestamp": "2026-09-13T12:30:00Z" },
+    { "id": "e5", "type": "FUNDS_DISTRIBUTED", "cumulativeAmount": "45.00", "timestamp": "2026-09-13T12:31:00Z" }
+  ]
+}

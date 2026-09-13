@@ -1,0 +1,15 @@
+{
+  "specificationVersion": "0.1",
+  "channelId": "CH-VALID-001",
+  "asset": "USDC",
+  "decimals": 6,
+  "analyzedAt": "2026-09-13T13:00:00Z",
+  "events": [
+    { "id": "e1", "type": "CHANNEL_FUNDED", "amount": "100.00", "timestamp": "2026-09-13T12:00:00Z" },
+    { "id": "e2", "type": "SERVICE_DELIVERED", "amount": "10.00", "timestamp": "2026-09-13T12:01:00Z" },
+    { "id": "e3", "type": "VOUCHER_ACCEPTED", "cumulativeAmount": "10.00", "expiresAt": "2026-09-14T12:00:00Z", "timestamp": "2026-09-13T12:01:01Z" },
+    { "id": "e4", "type": "CLAIM_CONFIRMED", "cumulativeAmount": "10.00", "timestamp": "2026-09-13T12:10:00Z" },
+    { "id": "e5", "type": "FUNDS_DISTRIBUTED", "cumulativeAmount": "10.00", "timestamp": "2026-09-13T12:11:00Z" },
+    { "id": "e6", "type": "PAYER_REFUNDED", "amount": "90.00", "timestamp": "2026-09-13T12:12:00Z" }
+  ]
+}

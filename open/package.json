@@ -1,0 +1,21 @@
+{
+  "name": "openclearing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reference engine for unsettled machine-payment obligations",
+  "type": "module",
+  "scripts": {
+    "analyze": "tsx src/cli.ts",
+    "demo": "tsx src/cli.ts examples/risky-session.json",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
